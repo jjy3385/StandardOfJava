@@ -1,1 +1,1 @@
-# StandardOfJava
+# Java의 정석 예제코드 저장소
