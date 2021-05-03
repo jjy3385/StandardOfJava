@@ -18,6 +18,12 @@ class Car {
         this.gearType = gearType;
         this.door = door;
     }
+
+    Car(Car c){
+        color = c.color;
+        gearType = c.gearType;
+        door = c.door;
+    }
 }
 
 public class CarTest2 {
