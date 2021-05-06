@@ -1,4 +1,4 @@
-package ch6;
+package ch7;
 
 public class PointTest2 {
     public static void main(String[] args) {

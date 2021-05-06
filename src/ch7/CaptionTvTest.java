@@ -1,6 +1,22 @@
-package ch6;
+package ch7;
 
-class CaptionTv extends  Tv {
+class Tv {
+    String color;
+    boolean power;
+    int channel;
+
+    void power(){
+        power = !power;
+    }
+    void channelUp(){
+        ++channel;
+    }
+    void channelDown(){
+        --channel;
+    }
+}
+
+class CaptionTv extends Tv {
     boolean caption;
     void dispalyCaption(String text){
         if(caption){
