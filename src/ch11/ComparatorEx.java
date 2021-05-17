@@ -5,13 +5,13 @@ import java.util.*;
 public class ComparatorEx {
     public static void main(String[] args) {
         String[] strArr = {"cat", "Dog", "lion", "tiger"};
-        Arrays.sort(strArr);
+        Arrays.sort(strArr);//1.sort()에 아무것도 지정해주지 않을 때
         System.out.println("strArr=" + Arrays.toString(strArr));
 
-        Arrays.sort(strArr, String.CASE_INSENSITIVE_ORDER);
+        Arrays.sort(strArr, String.CASE_INSENSITIVE_ORDER);//대소문자 구분안함
         System.out.println("strArr=" + Arrays.toString(strArr));
 
-        Arrays.sort(strArr, new Descending());
+        Arrays.sort(strArr, new Descending());//역순정렬
         System.out.println("strArr=" + Arrays.toString(strArr));
 
 
